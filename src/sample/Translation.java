@@ -11,7 +11,7 @@ import javax.swing.text.html.parser.Entity;
 
 public class Translation {
 
-	Map<String, String> dictionary = new TreeMap<>();
+	private Map<String, String> dictionary = new TreeMap<>();
 
 	public Translation(Map<String, String> dictionary) {
 		super();
